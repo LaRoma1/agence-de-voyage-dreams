@@ -42,7 +42,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
       >
         <HeroBackground imageUrl="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1">
-          <div className="container mx-auto px-4 h-full flex items-center justify-center">
+          <div className="w-full px-4 h-full flex items-center justify-center">
             <motion.div 
               className="text-center"
               initial={{ y: 100, opacity: 0 }}
@@ -95,7 +95,7 @@ const Home = () => {
         animate={featuredInView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.8 }}
       >
-        <div className="container mx-auto px-4">
+        <div className="w-full px-4">
           <h2 className="text-4xl font-display font-bold text-ocean-blue-800 text-center mb-16">
             Destinations Populaires
           </h2>
@@ -126,7 +126,7 @@ const Home = () => {
       
       {/* Section Pourquoi Nous Choisir */}
       <section className="py-20 bg-ocean-blue-50">
-        <div className="container mx-auto px-4">
+        <div className="w-full px-4">
           <h2 className="text-4xl font-display font-bold text-ocean-blue-800 text-center mb-16">
             Pourquoi Nous Choisir
           </h2>
@@ -178,7 +178,7 @@ const Home = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <div className="container mx-auto px-4 text-center">
+        <div className="w-full px-4 text-center">
           <h2 className="text-4xl font-display font-bold mb-6">
             Prêt à Vivre une Aventure Extraordinaire ?
           </h2>

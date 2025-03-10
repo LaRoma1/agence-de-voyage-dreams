@@ -36,7 +36,7 @@ const Contact = () => {
   const contactInfo = [
     {
       title: 'Adresse',
-      info: '123 Avenue des Voyages, 75008 Paris, France',
+      info: '123 Avenue des Voyages, 899 Yaoundé, Cameroon',
       icon: '📍'
     },
     {
@@ -46,7 +46,7 @@ const Contact = () => {
     },
     {
       title: 'Téléphone',
-      info: '+33 1 23 45 67 89',
+      info: '+237 655 045 277',
       icon: '📞'
     },
     {
@@ -211,9 +211,17 @@ const Contact = () => {
               
               {/* Map */}
               <div className="rounded-lg overflow-hidden shadow-lg h-80 bg-gray-200">
-                <div className="w-full h-full bg-ocean-blue-100 flex items-center justify-center">
-                  <p className="text-gray-600">Carte de localisation de l'agence (Intégration Google Maps)</p>
-                </div>
+                <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63723.35347427287!2d11.488463949999999!3d3.8659152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x108bcf7a309a7977%3A0x7f54bad35e693c51!2zWWFvdW5kw6k!5e0!3m2!1sfr!2scm!4v1710104771593!5m2!1sfr!2scm"
+                  width="100%" 
+                  height="100%" 
+                  style={{ border: 0 }} 
+                  allowFullScreen={true} 
+                  loading="lazy" 
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localisation de l'agence à Yaoundé"
+                  className="w-full h-full"
+                ></iframe>
               </div>
             </motion.div>
           </div>
