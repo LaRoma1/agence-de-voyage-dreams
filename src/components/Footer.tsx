@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   return (
     <footer className="bg-ocean-blue-900 text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
+      <div className="w-full px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Logo et Description */}
           <div>
@@ -116,7 +116,7 @@ const Footer = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-sand-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                +33 (0)1 23 45 67 89
+                +237 655 045 277
               </p>
               <p className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-sand-gold-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -134,6 +134,9 @@ const Footer = () => {
         {/* Copyright et Mentions Légales */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
           <p>© {new Date().getFullYear()} Voyage Dreams. Tous droits réservés.</p>
+          <p>
+            Développé par <a href="#" className="hover:text-sand-gold-300 transition-colors font-bold">RomaDev</a>
+          </p>
           <div className="mt-4 md:mt-0 space-x-4">
             <a href="#" className="hover:text-sand-gold-300 transition-colors">Mentions légales</a>
             <a href="#" className="hover:text-sand-gold-300 transition-colors">Politique de confidentialité</a>
